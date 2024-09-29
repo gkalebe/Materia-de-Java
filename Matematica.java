@@ -20,14 +20,14 @@ public class Matematica {
                                 double raiz1 = (-b + Math.sqrt(delta)) / (2 * a);
                                 double raiz2 = (-b - Math.sqrt(delta)) / (2 * a);
 
-                                    System.out.println("As raízes são x' = " + raiz1 + " e x'' = " + raiz2);
-                            }else if (delta == 0){
+                                        System.out.println("As raízes são x' = " + raiz1 + " e x'' = " + raiz2);
+                                }else if (delta == 0){
 
-                                    double raizUnica = -b / (2 * a);
-                                        System.out.println("A raiz única é x= " + raizUnica);
-                            }else{
-                                System.out.println("A equação não possui raizes reias.");
-                            }
+                                        double raizUnica = -b / (2 * a);
+                                            System.out.println("A raiz única é x= " + raizUnica);
+                                }else{
+                                    System.out.println("A equação não possui raizes reias.");
+                                }
     }
     
 }
